@@ -1,0 +1,11 @@
+n=int(input("enter the range:"))
+fn=0
+ln=1
+print(fn)
+print (ln)
+for i in range(n):
+    ans=fn+ln
+    print(ans)
+    
+    fn=ln
+    ln=ans
